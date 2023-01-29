@@ -1,6 +1,6 @@
 /* body */
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway Roboto", sans-serif;
   position: relative;
   width: 1440px;
   color: #2e2f42;
@@ -422,7 +422,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -430,10 +430,9 @@ h3 {
 
 p {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5px;
 
   letter-spacing: 0.02em;
 
