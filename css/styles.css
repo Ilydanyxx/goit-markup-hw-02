@@ -70,7 +70,7 @@ body {
 .menu-item:hover {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
@@ -90,9 +90,6 @@ body {
 }
 .contacts-item {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 
@@ -103,7 +100,7 @@ body {
 .contacts-item:hover {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
@@ -432,7 +429,7 @@ p {
   font-family: "Roboto";
 
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
