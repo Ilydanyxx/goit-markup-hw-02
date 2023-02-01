@@ -42,8 +42,6 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #2e2f42;
 }
 
 /* menu */
@@ -54,21 +52,15 @@ body {
   padding: 0px;
   gap: 40px;
 
-  padding-left: 347px;
-
   list-style: none;
 }
 .menu-item {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
   letter-spacing: 0.02em;
-
-  color: #2e2f42;
 }
 .menu-item:hover {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
@@ -98,7 +90,6 @@ body {
   color: #434455;
 }
 .contacts-item:hover {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 
@@ -125,7 +116,6 @@ body {
   list-style: none;
 }
 .navigation-button {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
@@ -142,7 +132,6 @@ body {
   padding: 12px 24px;
 
   height: 48px;
-  margin-right: 24px;
 
   background: #f4f4fd;
 
@@ -185,7 +174,6 @@ body {
 }
 h1 {
   font-family: "Roboto";
-  font-style: normal;
 
   font-size: 56px;
   line-height: 1.07;
@@ -200,7 +188,6 @@ h1 {
 
   font-family: inherit;
 
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
@@ -260,13 +247,11 @@ h1 {
   font-family: "Roboto";
   font-style: normal;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
 
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  color: #2e2f42;
 }
 .third-section-first {
   display: flex;
@@ -298,8 +283,6 @@ h1 {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  color: #2e2f42;
 }
 
 .fourth-section-first {
@@ -411,7 +394,7 @@ footer {
   list-style: none;
 }
 
-h3 {
+.section-text-item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -422,7 +405,7 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-p {
+.list-text {
   font-family: "Roboto";
 
   font-size: 16px;
