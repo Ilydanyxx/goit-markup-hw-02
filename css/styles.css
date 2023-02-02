@@ -11,9 +11,6 @@ body {
 /* logo */
 .logo {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
 }
 .logo-firstpart {
   width: 44px;
@@ -23,8 +20,6 @@ body {
   font-size: 18px;
   line-height: 1.33;
 
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -38,20 +33,12 @@ body {
   font-size: 18px;
   line-height: 1.33;
 
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 /* menu */
 .menu {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-
   list-style: none;
 }
 .menu-item {
@@ -72,12 +59,6 @@ body {
 
 /* contacts */
 .contacts {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-
   list-style: none;
 }
 .contacts-item {
@@ -105,11 +86,6 @@ body {
 
 /* navigation */
 .navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px 24px;
-
   width: 69px;
   height: 48px;
 
@@ -119,17 +95,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
 
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
 
   color: #4d5ae5;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
 
   height: 48px;
 
@@ -142,9 +110,7 @@ body {
 
 .navigation-button:hover {
   color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+
   padding: 12px 24px;
 
   height: 48px;
@@ -174,11 +140,9 @@ body {
 }
 h1 {
   font-family: "Roboto";
-
   font-size: 56px;
   line-height: 1.07;
 
-  text-align: center;
   letter-spacing: 0.02em;
 
   color: #ffffff;
@@ -190,18 +154,9 @@ h1 {
 
   font-size: 16px;
   line-height: 1.5;
-
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
 
   color: #ffffff;
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
 
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -215,17 +170,9 @@ h1 {
   font-size: 16px;
   line-height: 1.18;
 
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
 
   color: #ffffff;
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
 
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -234,11 +181,6 @@ h1 {
 /* second-section */
 
 .second-section-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 8px;
 }
 
 /* third-section */
@@ -249,27 +191,14 @@ h1 {
   font-size: 36px;
   line-height: 1.11;
 
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .third-section-first {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
 }
 .third-section-second {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
 }
 .third-section-third {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
 }
 .fourth-section {
   background: #f4f4fd;
@@ -280,58 +209,29 @@ h1 {
   font-size: 36px;
   line-height: 1.11;
 
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .fourth-section-first {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 .fourth-section-second {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 .fourth-section-third {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 .fourth-section-fourth {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -344,11 +244,7 @@ footer {
 }
 .footer-logo {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
 }
-
 .footer-logo-firstpart {
   width: 44px;
   height: 22px;
@@ -357,8 +253,6 @@ footer {
   font-size: 18px;
   line-height: 1.16;
 
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -372,17 +266,13 @@ footer {
   font-size: 18px;
   line-height: 1.16;
 
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: #f4f4fd;
 }
-
 .footer-text {
   font-family: "Roboto";
-
   font-size: 16px;
   line-height: 24px;
 
@@ -401,13 +291,11 @@ footer {
   font-size: 20px;
   line-height: 1.2;
 
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
 .list-text {
   font-family: "Roboto";
-
   font-size: 16px;
   line-height: 1.5;
 
